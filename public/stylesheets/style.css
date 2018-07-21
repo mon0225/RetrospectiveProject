@@ -54,4 +54,12 @@ a {
 .page-container {
   padding: 50px; }
 
+  h1{
+    text-align: center;
+    text-size: 0.5em;
+  }
+  .btn btn-primary{
+    align-item: center;
+  }
+
 /*# sourceMappingURL=style.css.map */

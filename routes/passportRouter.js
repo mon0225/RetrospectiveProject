@@ -381,6 +381,8 @@ router.get("/logout", (req, res, next) => {
   res.redirect("/login");
 });
 
+
+
 router.get("/users/delete", checkBoss, (req, res, next) =>{
   User.deleteOne({_id: req.query.user_id})
   .then(()=>{
